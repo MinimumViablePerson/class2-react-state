@@ -1,0 +1,36 @@
+.App {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+
+  gap: 1rem;
+
+  font-family: sans-serif;
+
+  background: linear-gradient(to right, #642b73, #c6426e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App.dark {
+  background: linear-gradient(to right, #321239, #52152a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.count {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+}
+
+.button {
+  font-size: 2rem;
+  border-radius: 5px;
+  border: solid 2px white;
+  background: none;
+  color: white;
+  padding: 0.5rem 1rem;
+}
